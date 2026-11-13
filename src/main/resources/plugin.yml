@@ -1,0 +1,16 @@
+name: AntiFreecam
+version: 1.0.0
+main: me.antifreecam.AntiFreecam
+api-version: '1.21'
+description: Hides entities without line of sight and blocks spectator-style teleporting to counter freecam.
+commands:
+  antifreecam:
+    description: Reload AntiFreecam config
+    usage: /antifreecam reload
+    permission: antifreecam.admin
+permissions:
+  antifreecam.admin:
+    default: op
+  antifreecam.bypass:
+    description: Not affected by entity hiding or spectator-teleport block
+    default: op

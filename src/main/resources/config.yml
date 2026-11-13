@@ -1,0 +1,19 @@
+# How often (in ticks) visibility is recalculated. 20 ticks = 1 second.
+check-interval-ticks: 4
+
+# Entities farther than this are never checked (vanilla tracking handles them).
+max-check-distance: 64
+
+# Entities closer than this are always visible (avoids pop-in at corners).
+always-visible-distance: 6
+
+# What to hide when there is no line of sight.
+hide-players: true
+hide-mobs: true
+
+# Cancel teleporting via the spectator menu / left-clicking mobs in spectator mode.
+block-spectator-teleport: true
+
+# Block the player's own spectator mode from being used to pass through walls
+# (only affects non-bypass players who somehow get into spectator mode).
+force-out-of-spectator: false
